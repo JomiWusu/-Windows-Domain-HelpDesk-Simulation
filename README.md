@@ -44,8 +44,9 @@ Denied access to an unauthorized department folder
 Students folder permissions configuration. Shows only Students_Group and Administrators with access.
 ![Students](Project_Images/Server_1_Folder_Permissions.png)
 
-##Group Policy Configuration
+## Group Policy Configuration
 Password Policy requiring a minimum password length of 8 characters and enforcing password complexity requirements.
+
 ![Students](Project_Images/Computer_Configuration_GPO.png)
 
 
