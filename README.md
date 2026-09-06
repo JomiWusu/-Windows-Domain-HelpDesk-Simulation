@@ -14,5 +14,6 @@ Also includes simulated IT help desk ticketing using ServiceNow.
 - Group Policy
 
 
---
+---
 ## Server01 IP Configuration
+![Server 1 IP](Project_Images/Server_1_IpConfig.png)
