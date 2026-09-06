@@ -17,3 +17,6 @@ Also includes simulated IT help desk ticketing using ServiceNow.
 ---
 ## Server01 IP Configuration
 ![Server 1 IP](Project_Images/Server_1_IpConfig.png)
+---
+## Client01 IP Configuration
+![Client 1 IP](Project_Images/Client_1_IpConfig.png)
