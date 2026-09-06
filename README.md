@@ -28,6 +28,7 @@ Confirming connectivity between the client and server after configuration
 ## Active Directory Users And Groups
 Four organizational units create to simulate a university. User accounts were created within each organizational unit.
 Security group was created for each OU users were added to their group to manage shard folder permissions at the group level.
+
 ![Structure](Project_Images/Server1_ou_structure_users.png)
 ![Structure](Project_Images/Server1_ou_structure.png)
 ![SecurityGroups](Project_Images/Server1_Security_Groups.png)
