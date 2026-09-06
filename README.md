@@ -49,6 +49,10 @@ Password Policy requiring a minimum password length of 8 characters and enforcin
 
 ![Students](Project_Images/Computer_Configuration_GPO.png)
 
+Restrictions and desktop policy. Prohibit access to control panel and pc settings and enforcing a desktop wallpaper.
+
+![Students](Project_Images/User_Configuration_GPO.png)
+
 
 
 
