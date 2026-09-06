@@ -12,3 +12,7 @@ Also includes simulated IT help desk ticketing using ServiceNow.
 - DHCP
 - Hyper-V
 - Group Policy
+
+
+--
+## Server01 IP Configuration
