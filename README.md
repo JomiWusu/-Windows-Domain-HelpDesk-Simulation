@@ -37,8 +37,18 @@ Security group was created for each OU users were added to their group to manage
 
 Verifying permissions were enforced by accessing a folder while logged in as a faculty user.
 ![Access](Project_Images/Faculty_User_In_FacultyFolder.png)
+
 Denied access to an unauthorized department folder
 ![Denied](Project_Images/Faculty_User_Denied_Access.png)
+
+Students folder permissions configuration. Shows only Students_Group and Administrators with access.
+![Students](Project_Images/Server_1_Folder_Permissions.png)
+
+##Group Policy Configuration
+Password Policy requiring a minimum password length of 8 characters and enforcing password complexity requirements.
+![Students](Project_Images/Computer_Configuration_GPO.png)
+
+
 
 
 
