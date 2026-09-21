@@ -23,7 +23,13 @@ Also includes simulated IT help desk ticketing using ServiceNow.
 ---
 ## Client Ping Test
 Confirming connectivity between the client and server after configuration
+
 ![Ping Test](Project_Images/Client_ServerPing_Test.png)
+---
+## DHCP Configuration
+Scope was configured on server to automatically assign IP addresses
+
+![Structure](Project_Images/DHCP_Config.png)
 ---
 ## Active Directory Users And Groups
 Four organizational units create to simulate a university. User accounts were created within each organizational unit.
