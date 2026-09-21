@@ -1,5 +1,5 @@
 # Summary
-Virtualized Windows server and network environment built in Hyper-V. This project includes a Active Directory domain with organizational units, security groups and group policy management. 
+Virtualized Windows server and network environment built in Hyper-V. This project includes an Active Directory domain with organizational units, security groups and group policy management. 
 Also includes simulated IT help desk ticketing using ServiceNow.
 
 ---
@@ -32,8 +32,8 @@ Scope was configured on server to automatically assign IP addresses
 ![Structure](Project_Images/DHCP_Config.png)
 ---
 ## Active Directory Users And Groups
-Four organizational units create to simulate a university. User accounts were created within each organizational unit.
-Security group was created for each OU users were added to their group to manage shard folder permissions at the group level.
+Four organizational units were created to simulate a university. User accounts were created within each organizational unit.
+Security group was created for each OU users were added to their group to manage shared folder permissions at the group level.
 
 ![Structure](Project_Images/Server1_ou_structure_users.png)
 ![Structure](Project_Images/Server1_ou_structure.png)
