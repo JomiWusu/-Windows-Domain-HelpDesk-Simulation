@@ -43,6 +43,7 @@ Security group was created for each OU users were added to their group to manage
 Verifying permissions were enforced by accessing a folder while logged in as a faculty user.
 
 ![Access](Project_Images/Faculty_User_In_FacultyFolder.png)
+
 Denied access to an unauthorized department folder
 
 ![Denied](Project_Images/Faculty_User_Denied_Access.png)
