@@ -34,13 +34,10 @@ Security group was created for each OU users were added to their group to manage
 ![SecurityGroups](Project_Images/Server1_Security_Groups.png)
 
 ## Access Control Testing
-
 Verifying permissions were enforced by accessing a folder while logged in as a faculty user.
 ![Access](Project_Images/Faculty_User_In_FacultyFolder.png)
----
 Denied access to an unauthorized department folder
 ![Denied](Project_Images/Faculty_User_Denied_Access.png)
----
 Students folder permissions configuration. Shows only Students_Group and Administrators with access.
 ![Students](Project_Images/Server_1_Folder_Permissions.png)
 ---
