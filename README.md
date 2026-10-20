@@ -89,6 +89,11 @@ ServiceNow was used to simulate a help desk queue for the lab environment. Users
 
 ![Account created](Project_Images/INC0010009_1.png)
 
+2. Set a temporary password and making sure user changes password at next login. Sarah was able to set a new password and met the domain password policy.
+
+![Account created](Project_Images/INC0010009_2.png)
+
+
 
 
 
