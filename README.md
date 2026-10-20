@@ -67,6 +67,17 @@ ServiceNow was used to simulate a help desk queue for the lab environment. Users
 ![ServiceNow Users](Project_Images/servicenow_users.png)
 ![ServiceNow departments](Project_Images/servicenow_departments.png)
 
+## Example Ticket Cases
+
+#### INC0010009: New User Onboarding
+**Request:** New employee Sarah Collins is starting in the Administration department and needs a domain account and access to her department's resources.
+
+1. Created the user account in Active Directory under the administration OU. Furthermore added her to administration group to receive access to department shared folder.
+
+![Account created](Project_Images/INC0010009_1.png)
+
+
+
 
 
 
