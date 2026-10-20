@@ -1,6 +1,19 @@
 # Summary
 Virtualized Windows server and network environment built in Hyper-V. This project includes an Active Directory domain with organizational units, security groups and group policy management. Simulated IT help desk queue in ServiceNow to document and resolve tickets.
 
+## Contents
+- [Tools](#tools)
+- [Server01 IP Configuration](#server01-ip-configuration)
+- [Client01 IP Configuration](#client01-ip-configuration)
+- [Client Ping Test](#client-ping-test)
+- [DHCP Configuration](#dhcp-configuration)
+- [Active Directory Users And Groups](#active-directory-users-and-groups)
+- [Access Control Testing](#access-control-testing)
+- [Group Policy Configuration](#group-policy-configuration)
+- [**Ticket Simulation (ServiceNow)**](#ticket-simulation)
+  - [Users and Departments](#users-and-departments)
+  - [Example Ticket Cases](#example-ticket-cases)
+
 ---
 # Tools
 - Windows Server 2022
@@ -63,11 +76,11 @@ Restrictions and desktop policy. Prohibit access to control panel and pc setting
 
 ServiceNow was used to simulate a help desk queue for the lab environment. Users and departments were created to mirror the lab. Issues were reproduced, troubleshot, and documented with their resolutions.
 
-## Users & Departments
+### Users and Departments
 ![ServiceNow Users](Project_Images/servicenow_users.png)
 ![ServiceNow departments](Project_Images/servicenow_departments.png)
 
-## Example Ticket Cases
+### Example Ticket Cases
 
 #### INC0010009: New User Onboarding
 **Request:** New employee Sarah Collins is starting in the Administration department and needs a domain account and access to her department's resources.
