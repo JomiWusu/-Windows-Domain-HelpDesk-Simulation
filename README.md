@@ -93,6 +93,12 @@ ServiceNow was used to simulate a help desk queue for the lab environment. Users
 
 ![Account created](Project_Images/INC0010009_2.png)
 
+3. Sarah signed in as scollins and opened the administration folder to confirm she could reach her department's shared folder.
+
+![Account created](Project_Images/INC0010009_3.png)
+
+**Resolution:** Account created and configured. The user logged in and accessed Administration resources.
+
 
 
 
