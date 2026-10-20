@@ -1,5 +1,5 @@
 # Summary
-Virtualized Windows server and network environment built in Hyper-V. This project includes an Active Directory domain with organizational units, security groups and group policy management. 
+Virtualized Windows server and network environment built in Hyper-V. This project includes an Active Directory domain with organizational units, security groups and group policy management. Simulated IT help desk queue in ServiceNow to document and resolve tickets.
 
 ---
 # Tools
@@ -10,6 +10,7 @@ Virtualized Windows server and network environment built in Hyper-V. This projec
 - DHCP
 - Hyper-V
 - Group Policy
+- ServiceNow
 
 
 ---
@@ -58,6 +59,13 @@ Password Policy requiring a minimum password length of 8 characters and enforcin
 Restrictions and desktop policy. Prohibit access to control panel and pc settings and enforcing a desktop wallpaper.
 ![Students](Project_Images/User_Configuration_GPO.png)
 
+## Ticket Simulation
+
+ServiceNow was used to simulate a help desk queue for the lab environment. Users and departments were created to mirror the lab. Issues were reproduced, troubleshot, and documented with their resolutions.
+
+## Users & Departments
+![ServiceNow Users](Project_Images/servicenow_users.png)
+![ServiceNow departments](Project_Images/servicenow_departments.png)
 
 
 
