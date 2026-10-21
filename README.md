@@ -94,6 +94,7 @@ ServiceNow was used to simulate a help desk queue for the lab environment. Users
 #### INC0010009: New User Onboarding
 **Request:** New employee Sarah Collins is starting in the Administration department and needs a domain account and access to her department's resources.
 
+**Troubleshooting:**
 1. Created the user account in Active Directory under the Administration OU, then added her to the Administration group to receive access to the department’s shared folder
 
 ![Account created](Project_Images/INC0010009_1.png)
@@ -108,10 +109,12 @@ ServiceNow was used to simulate a help desk queue for the lab environment. Users
 
 **Resolution:** Account created and configured. The user logged in and accessed Administration resources.
 
+#### INC0010002: Desktop Wallpaper Not Applying
 
+**Request:** Emmie Ward reported that the company wallpaper was not showing up.
 
+**Troubleshooting:**
+1. Reviewed group policy settings and verified the desktop wallpaper policy is enabled and points to a shared network path.
 
-
-
-
+![GPO Settings](Project_Images/INC0010002_1.png)
 
