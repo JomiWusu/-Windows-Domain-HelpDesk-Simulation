@@ -89,6 +89,9 @@ ServiceNow was used to simulate a help desk queue for the lab environment. Users
 ![ServiceNow Users](Project_Images/servicenow_users.png)
 ![ServiceNow departments](Project_Images/servicenow_departments.png)
 
+### List of some Tickets
+![ServiceNow incident queue](Project_Images/servicenow_queue.png)
+
 ### Example Ticket Cases
 
 #### INC0010009: New User Onboarding
