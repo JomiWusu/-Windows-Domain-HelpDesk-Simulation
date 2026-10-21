@@ -126,3 +126,5 @@ ServiceNow was used to simulate a help desk queue for the lab environment. Users
 
 ![gpupdate output](Project_Images/INC0010002_3.png)
 
+**Resolution:** The policy applied after a policy refresh and logging in again. User confirmed the wallpaper is displayed.
+
