@@ -111,21 +111,38 @@ ServiceNow was used to simulate a help desk queue for the lab environment. Users
 
 #### INC0010002: Desktop Wallpaper Not Applying
 
-**Request:** Emmie Ward reported that the company wallpaper was not showing up.
+**Request:** Emmie Ward reported that the company wallpaper was not showing up and would like the appropriate wallpaper to be applied.
 
 **Troubleshooting:**
-1. Reviewed group policy settings and verified the desktop wallpaper policy is enabled and points to a shared network path.
+1. Reviewed group policy settings and verified the desktop wallpaper policy is enabled and points to a shared network path. Also confirmed the policy is linked to the Students OU.
 
 ![GPO Settings](Project_Images/INC0010002_1.png)
 
-2. Confirmed the policy is linked to the Students OU.
+2. Signed in as the user and forced a policy refresh.
 
-![gpupdate output](Project_Images/INC0010002_1.png)
-
-3. Signed in as the user and forced a policy refresh.
-
-![gpupdate output](Project_Images/INC0010002_3.png)
+![gpupdate output](Project_Images/INC0010002_2.png)
 
 4. Had the user log out and back in so wallpaper can apply and it displayed correctly.
 
+![wallpaper_displayed](Project_Images/INC0010002_3.png)
 
+**Resolution:** The policy applied after a policy refresh and logging in again. User confirmed the wallpaper is displayed.
+
+#### INC0010006: Account Locked Out
+
+** Request: Aaron Giles reported he could not log in to his account and would like to unlock his account.**
+
+**Troubleshooting:**
+1. Confirmed the issue. The login screen showed account is currently locked.
+
+![Account locked out message](Project_Images/INC0010006_1.png)
+
+2. Checked the account in Active Directory Users and Computers, confirmed it was locked out, and unlocked it from account tab.
+
+![unlocked account](Project_Images/INC0010006_2.png)
+
+3. Verified the user could sign in with the correct credentials.
+
+![Successful login as Aaron Giles](Project_Images/INC0010006_3.png)
+
+**Resolution:** The account was locked after repeated failed login attempts. I unlocked it in Active Directory and the user logged in successfully.
