@@ -26,6 +26,16 @@ Virtualized Windows server and network environment built in Hyper-V. This projec
 - ServiceNow
 
 
+| Component | Details |
+|---|---|
+| Hypervisor | Hyper-V |
+| Server01 | Windows Server 2022 Standard (Desktop Experience), static IP 192.168.1.30 |
+| Client01 | [OS from winver], static IP 192.168.1.31, joined to the domain |
+| Domain | jwlab.local (NetBIOS name: JWLAB) |
+| Server roles | Active Directory Domain Services, DNS, DHCP, file shares |
+| Structure | 4 OUs, one security group per OU, department shared folders |
+| Help desk | ServiceNow Personal Developer Instance |
+
 ---
 ## Server01 IP Configuration
 ![Server 1 IP](Project_Images/Server_1_IpConfig.png)
@@ -34,42 +44,43 @@ Virtualized Windows server and network environment built in Hyper-V. This projec
 ![Client 1 IP](Project_Images/Client_1_IpConfig.png)
 ---
 ## Client Ping Test
-Confirming connectivity between the client and server after configuration
+This confirms the connectivity between the client and server after configuration.
 
 ![Ping Test](Project_Images/Client_ServerPing_Test.png)
 ---
 ## DHCP Configuration
-Scope was configured on server to automatically assign IP addresses
+A scope was configured on the server to automatically assign IP addresses
 
 ![Structure](Project_Images/DHCP_Config.png)
 ---
-## Active Directory Users And Groups
+## Active Directory Users and Groups
 Four organizational units were created to simulate a university. User accounts were created within each organizational unit.
-Security group was created for each OU users were added to their group to manage shared folder permissions at the group level.
+A security group was created for each OU, and users were added to their group to manage shared folder permissions at the group level.
 
 ![Structure](Project_Images/Server1_ou_structure_users.png)
 ![Structure](Project_Images/Server1_ou_structure.png)
 ![SecurityGroups](Project_Images/Server1_Security_Groups.png)
 
 ## Access Control Testing
-Verifying permissions were enforced by accessing a folder while logged in as a faculty user.
+Permissions were verified by accessing a folder while logged in as a faculty user.
 
 ![Access](Project_Images/Faculty_User_In_FacultyFolder.png)
 
-Denied access to an unauthorized department folder
+The same user was denied access to an unauthorized department folder
 
 ![Denied](Project_Images/Faculty_User_Denied_Access.png)
 
-Students folder permissions configuration. Shows only Students_Group and Administrators with access.
+Students folder permissions which only Students_Group and Administrators have access.
 
 ![Students](Project_Images/Server_1_Folder_Permissions.png)
 ---
 ## Group Policy Configuration
-Password Policy requiring a minimum password length of 8 characters and enforcing password complexity requirements.
+The password policy requires a minimum password length of 8 characters and enforces password complexity.
 
 ![Students](Project_Images/Computer_Configuration_GPO.png)
 
-Restrictions and desktop policy. Prohibit access to control panel and pc settings and enforcing a desktop wallpaper.
+Restrictions and desktop policy: prohibits access to control panel and pc settings and enforces a desktop wallpaper.
+
 ![Students](Project_Images/User_Configuration_GPO.png)
 
 ## Ticket Simulation
@@ -85,17 +96,17 @@ ServiceNow was used to simulate a help desk queue for the lab environment. Users
 #### INC0010009: New User Onboarding
 **Request:** New employee Sarah Collins is starting in the Administration department and needs a domain account and access to her department's resources.
 
-1. Created the user account in Active Directory under the administration OU. Furthermore added her to administration group to receive access to department shared folder.
+1. Created the user account in Active Directory under the Administration OU, then added her to the Administration group to receive access to the department’s shared folder
 
 ![Account created](Project_Images/INC0010009_1.png)
 
-2. Set a temporary password and making sure user changes password at next login. Sarah was able to set a new password and met the domain password policy.
+2. Set a temporary password and required a password change at next login. Sarah was able to set a new password that met the domain password policy
 
-![Account created](Project_Images/INC0010009_2.png)
+![Password Change](Project_Images/INC0010009_2.png)
 
-3. Sarah signed in as scollins and opened the administration folder to confirm she could reach her department's shared folder.
+3. Sarah signed in as scollins and opened the Administration folder to confirm she could reach her department’s shared folder.
 
-![Account created](Project_Images/INC0010009_3.png)
+![Signed in](Project_Images/INC0010009_3.png)
 
 **Resolution:** Account created and configured. The user logged in and accessed Administration resources.
 
