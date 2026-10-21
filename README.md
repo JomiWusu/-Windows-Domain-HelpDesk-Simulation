@@ -29,12 +29,10 @@ Virtualized Windows server and network environment built in Hyper-V. This projec
 | Component | Details |
 |---|---|
 | Hypervisor | Hyper-V |
-| Server01 | Windows Server 2022 Standard (Desktop Experience), static IP 192.168.1.30 |
-| Client01 | [OS from winver], static IP 192.168.1.31, joined to the domain |
 | Domain | jwlab.local (NetBIOS name: JWLAB) |
 | Server roles | Active Directory Domain Services, DNS, DHCP, file shares |
 | Structure | 4 OUs, one security group per OU, department shared folders |
-| Help desk | ServiceNow Personal Developer Instance |
+| Help desk | ServiceNow  |
 
 ---
 ## Server01 IP Configuration
