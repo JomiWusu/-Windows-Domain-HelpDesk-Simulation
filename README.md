@@ -118,3 +118,14 @@ ServiceNow was used to simulate a help desk queue for the lab environment. Users
 
 ![GPO Settings](Project_Images/INC0010002_1.png)
 
+2. Confirmed the policy is linked to the Students OU.
+
+![gpupdate output](Project_Images/INC0010002_1.png)
+
+3. Signed in as the user and forced a policy refresh.
+
+![gpupdate output](Project_Images/INC0010002_3.png)
+
+4. Had the user log out and back in so wallpaper can apply and it displayed correctly.
+
+
