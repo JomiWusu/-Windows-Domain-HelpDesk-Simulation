@@ -114,18 +114,15 @@ ServiceNow was used to simulate a help desk queue for the lab environment. Users
 **Request:** Emmie Ward reported that the company wallpaper was not showing up.
 
 **Troubleshooting:**
-1. Reviewed group policy settings and verified the desktop wallpaper policy is enabled and points to a shared network path.
+1. Reviewed group policy settings and verified the desktop wallpaper policy is enabled and points to a shared network path. Also confirmed the policy is linked to the Students OU.
 
 ![GPO Settings](Project_Images/INC0010002_1.png)
 
-2. Confirmed the policy is linked to the Students OU.
+2. Signed in as the user and forced a policy refresh.
 
-![gpupdate output](Project_Images/INC0010002_1.png)
-
-3. Signed in as the user and forced a policy refresh.
-
-![gpupdate output](Project_Images/INC0010002_3.png)
+![gpupdate output](Project_Images/INC0010002_2.png)
 
 4. Had the user log out and back in so wallpaper can apply and it displayed correctly.
 
+![gpupdate output](Project_Images/INC0010002_3.png)
 
